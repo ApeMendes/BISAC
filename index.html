@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BISAC | Portable Lactose Detection</title>
+    <meta name="description" content="Biodegradable, portable lactose detection sensor. Peace of mind before every bite.">
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(90deg, #0f2c5c 0%, #1e4d8c 100%);
+        }
+        .accent-text { color: #4ade80; } /* Green for biodegradability */
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-900 flex items-center gap-2">
+                <i class="fa-solid fa-flask text-green-500"></i> BISAC
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#problem" class="hover:text-blue-600 transition">The Problem</a>
+                <a href="#solution" class="hover:text-blue-600 transition">Our Solution</a>
+                <a href="#features" class="hover:text-blue-600 transition">Features</a>
+                <a href="#team" class="hover:text-blue-600 transition">Team</a>
+            </div>
+            <a href="#contact" class="bg-blue-900 text-white px-5 py-2 rounded-full hover:bg-blue-800 transition">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white pt-32 pb-20">
+        <div class="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center">
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Peace of mind <br><span class="text-green-400">before every bite.</span>
+                </h1>
+                <p class="text-lg mb-8 text-gray-200">
+                    A portable, biodegradable, and quantitative lactose detection device designed to improve the quality of life for the lactose intolerant.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#solution" class="bg-green-500 text-blue-900 font-bold px-8 py-3 rounded-full hover:bg-green-400 transition shadow-lg">
+                        Discover BISAC
+                    </a>
+                    <a href="#" class="border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-blue-900 transition">
+                        Watch Pitch
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <!-- Placeholder for Prototype Image -->
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 shadow-2xl">
+                    <img src="https://placehold.co/600x400/png?text=BISAC+Prototype+Device" alt="BISAC Prototype" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section id="problem" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-blue-900 mb-4">Why BISAC?</h2>
+            <p class="max-w-2xl mx-auto text-gray-600 mb-12">
+                Lactose intolerance affects 57-65% of the global population. Current solutions are reactive (medication) or expensive and wasteful.
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">5.5B</div>
+                    <p class="text-gray-600">People worldwide suffer from lactose intolerance.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition">
+                    <div class="text-4xl font-bold text-red-500 mb-2">25.5%</div>
+                    <p class="text-gray-600">Of surveyed patients required medical attention due to accidental ingestion.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition">
+                    <div class="text-4xl font-bold text-green-600 mb-2">1B+</div>
+                    <p class="text-gray-600">USD spent annually on lactase supplements alone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Solution Section -->
+    <section id="solution" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/600x600/png?text=Sensor+Technology" alt="Sensor Tech" class="rounded-xl shadow-xl">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-blue-900 mb-6">Innovative Technology</h2>
+                    <p class="text-gray-600 mb-6">
+                        BISAC integrates low-cost, disposable, and biodegradable sensors capable of detecting lactose concentration in liquid or solid samples in approximately one minute.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-gray-800">Zein-Coated Sensors:</strong>
+                                <p class="text-sm text-gray-600">Utilizing a biodegradable protein derived from corn for eco-friendly disposal.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-gray-800">Quantitative Results:</strong>
+                                <p class="text-sm text-gray-600">Unlike competitors that only say "Yes/No", BISAC tells you exactly how much lactose is present (mg/g).</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-gray-800">Smart App Integration:</strong>
+                                <p class="text-sm text-gray-600">Tracks daily intake and customizes alerts based on your specific sensitivity level.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-blue-900">Key Features</h2>
+                <p class="text-gray-600 mt-2">Designed for the user, built for the planet.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="text-center p-6 border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-leaf text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Biodegradable</h3>
+                    <p class="text-sm text-gray-500">Sensors made with Zein protein, reducing plastic waste.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="text-center p-6 border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-microchip text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">PCA Algorithm</h3>
+                    <p class="text-sm text-gray-500">Advanced noise filtering for high accuracy and fewer false positives.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="text-center p-6 border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-tag text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Affordable</h3>
+                    <p class="text-sm text-gray-500">Target price of 30€-50€, significantly lower than competitors.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="text-center p-6 border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fa-solid fa-mobile-screen text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">User-Centric App</h3>
+                    <p class="text-sm text-gray-500">Classifies food as Low, Normal, or High risk based on your profile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-blue-900 mb-12">Meet the Team</h2>
+            <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
+                
+                <!-- Member 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <img src="https://placehold.co/150x150/png?text=MV" alt="Miguel Valente" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-bold text-gray-900">Miguel Valente</h3>
+                    <p class="text-blue-600 text-sm font-semibold">CEO</p>
+                    <p class="text-xs text-gray-500 mt-2">Pragmatic & Innovative</p>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <img src="https://placehold.co/150x150/png?text=NL" alt="Naiana Lima" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-bold text-gray-900">Naiana Lima</h3>
+                    <p class="text-blue-600 text-sm font-semibold">CTO</p>
+                    <p class="text-xs text-gray-500 mt-2">Tech & Detail Oriented</p>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <img src="https://placehold.co/150x150/png?text=AM" alt="Alexandre Mendes" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-bold text-gray-900">Alexandre Mendes</h3>
+                    <p class="text-blue-600 text-sm font-semibold">CCO</p>
+                    <p class="text-xs text-gray-500 mt-2">Creative Thinker</p>
+                </div>
+
+                <!-- Member 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <img src="https://placehold.co/150x150/png?text=SL" alt="Sofia Lopes" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-bold text-gray-900">Sofia Lopes</h3>
+                    <p class="text-blue-600 text-sm font-semibold">CMO</p>
+                    <p class="text-xs text-gray-500 mt-2">Artistic Vision</p>
+                </div>
+
+                <!-- Member 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <img src="https://placehold.co/150x150/png?text=RB" alt="Ricardo Borges" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-bold text-gray-900">Ricardo Borges</h3>
+                    <p class="text-blue-600 text-sm font-semibold">CFO</p>
+                    <p class="text-xs text-gray-500 mt-2">Direct & Pragmatic</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="text-2xl font-bold flex items-center gap-2">
+                        <i class="fa-solid fa-flask text-green-400"></i> BISAC
+                    </h2>
+                    <p class="text-blue-200 mt-2 text-sm">Entrepreneurship Project | P1 - Sanaz Nikghadam</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-green-400 transition"><i class="fa-brands fa-instagram text-xl"></i></a>
+                    <a href="#" class="hover:text-green-400 transition"><i class="fa-brands fa-linkedin text-xl"></i></a>
+                    <a href="#" class="hover:text-green-400 transition"><i class="fa-solid fa-envelope text-xl"></i></a>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-8 pt-8 text-center text-sm text-blue-300">
+                &copy; 2026 BISAC. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
