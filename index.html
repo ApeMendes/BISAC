@@ -29,7 +29,9 @@
     <nav class="bg-white shadow-md fixed w-full z-50">
         <div class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold text-blue-900 flex items-center gap-2">
-                <i class="fa-solid fa-flask text-green-500"></i> BISAC
+                <!-- Updated Logo -->
+                <img src="logo.png" alt="BISAC Logo" class="h-10 w-auto"> 
+                <span>BISAC</span>
             </a>
             <div class="hidden md:flex space-x-8">
                 <a href="#problem" class="hover:text-blue-600 transition">The Problem</a>
@@ -61,9 +63,9 @@
                 </div>
             </div>
             <div class="md:w-1/2 flex justify-center">
-                <!-- Placeholder for Prototype Image -->
-                <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 shadow-2xl">
-                    <img src="https://placehold.co/600x400/png?text=BISAC+Prototype+Device" alt="BISAC Prototype" class="rounded-lg shadow-lg">
+                <!-- Updated Hero Image (Infographic) -->
+                <div class="bg-white/10 backdrop-blur-md p-2 rounded-2xl border border-white/20 shadow-2xl">
+                    <img src="BISAC_Infographic.jpeg" alt="BISAC Device Infographic" class="rounded-lg shadow-lg max-h-[400px] w-auto">
                 </div>
             </div>
         </div>
@@ -99,7 +101,8 @@
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/2">
-                    <img src="https://placehold.co/600x600/png?text=Sensor+Technology" alt="Sensor Tech" class="rounded-xl shadow-xl">
+                    <!-- Updated Solution Image (Sensor Stack) -->
+                    <img src="sensor_stack.jpg" alt="BISAC Sensor Technology Stack" class="rounded-xl shadow-xl w-full object-cover h-auto">
                 </div>
                 <div class="md:w-1/2">
                     <h2 class="text-3xl font-bold text-blue-900 mb-6">Innovative Technology</h2>
@@ -185,41 +188,51 @@
             <h2 class="text-3xl font-bold text-blue-900 mb-12">Meet the Team</h2>
             <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
                 
-                <!-- Member 1 -->
-                <div class="bg-white p-6 rounded-xl shadow-sm">
-                    <img src="https://placehold.co/150x150/png?text=MV" alt="Miguel Valente" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                <!-- Member 1: Miguel -->
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center">
+                    <div class="w-24 h-24 mb-4 rounded-full overflow-hidden">
+                        <img src="miguel_photo.jpeg" alt="Miguel Valente" class="w-full h-full object-cover">
+                    </div>
                     <h3 class="font-bold text-gray-900">Miguel Valente</h3>
                     <p class="text-blue-600 text-sm font-semibold">CEO</p>
                     <p class="text-xs text-gray-500 mt-2">Pragmatic & Innovative</p>
                 </div>
 
-                <!-- Member 2 -->
-                <div class="bg-white p-6 rounded-xl shadow-sm">
-                    <img src="https://placehold.co/150x150/png?text=NL" alt="Naiana Lima" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                <!-- Member 2: Naiana -->
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center">
+                    <div class="w-24 h-24 mb-4 rounded-full overflow-hidden">
+                        <img src="naiana_photo.PNG" alt="Naiana Lima" class="w-full h-full object-cover">
+                    </div>
                     <h3 class="font-bold text-gray-900">Naiana Lima</h3>
                     <p class="text-blue-600 text-sm font-semibold">CTO</p>
                     <p class="text-xs text-gray-500 mt-2">Tech & Detail Oriented</p>
                 </div>
 
-                <!-- Member 3 -->
-                <div class="bg-white p-6 rounded-xl shadow-sm">
-                    <img src="https://placehold.co/150x150/png?text=AM" alt="Alexandre Mendes" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                <!-- Member 3: Alexandre -->
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center">
+                    <div class="w-24 h-24 mb-4 rounded-full overflow-hidden">
+                        <img src="Alexandre_photo.JPG" alt="Alexandre Mendes" class="w-full h-full object-cover">
+                    </div>
                     <h3 class="font-bold text-gray-900">Alexandre Mendes</h3>
                     <p class="text-blue-600 text-sm font-semibold">CCO</p>
                     <p class="text-xs text-gray-500 mt-2">Creative Thinker</p>
                 </div>
 
-                <!-- Member 4 -->
-                <div class="bg-white p-6 rounded-xl shadow-sm">
-                    <img src="https://placehold.co/150x150/png?text=SL" alt="Sofia Lopes" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                <!-- Member 4: Sofia -->
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center">
+                    <div class="w-24 h-24 mb-4 rounded-full overflow-hidden">
+                        <img src="sofia_photo.png" alt="Sofia Lopes" class="w-full h-full object-cover">
+                    </div>
                     <h3 class="font-bold text-gray-900">Sofia Lopes</h3>
                     <p class="text-blue-600 text-sm font-semibold">CMO</p>
                     <p class="text-xs text-gray-500 mt-2">Artistic Vision</p>
                 </div>
 
-                <!-- Member 5 -->
-                <div class="bg-white p-6 rounded-xl shadow-sm">
-                    <img src="https://placehold.co/150x150/png?text=RB" alt="Ricardo Borges" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                <!-- Member 5: Ricardo -->
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center">
+                    <div class="w-24 h-24 mb-4 rounded-full overflow-hidden">
+                        <img src="ricardo_photo.jpg" alt="Ricardo Borges" class="w-full h-full object-cover">
+                    </div>
                     <h3 class="font-bold text-gray-900">Ricardo Borges</h3>
                     <p class="text-blue-600 text-sm font-semibold">CFO</p>
                     <p class="text-xs text-gray-500 mt-2">Direct & Pragmatic</p>
@@ -235,7 +248,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-6 md:mb-0">
                     <h2 class="text-2xl font-bold flex items-center gap-2">
-                        <i class="fa-solid fa-flask text-green-400"></i> BISAC
+                        <img src="logo.png" alt="BISAC Logo" class="h-6 w-auto"> BISAC
                     </h2>
                     <p class="text-blue-200 mt-2 text-sm">Entrepreneurship Project | P1 - Sanaz Nikghadam</p>
                 </div>
